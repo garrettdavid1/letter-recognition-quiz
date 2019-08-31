@@ -33,7 +33,7 @@ const buildLists = () => {
 const setLetter = () => {
     let index;
     if(letters.length > 0){
-        index = Math.floor(Math.random() * (letters.length - 1));
+        index = Math.floor(Math.random() * (letters.length));
         currentLetter = letters[index];
     } else{
         currentLetter = `${correctLetters.length} Correct <hr /> ${incorrectLetters.length} Incorrect`;

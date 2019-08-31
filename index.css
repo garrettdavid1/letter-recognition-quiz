@@ -24,6 +24,9 @@ h1{
     font-size: 2vw;
     overflow-y: auto;
 }
+.col:nth-child(even){
+    width: 34%;
+}
 .col:nth-child(odd){
     background: lightblue;
 }
